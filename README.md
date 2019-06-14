@@ -1,5 +1,5 @@
 # graphql-java-spring-boot-example
--22222222222--------------------------------------
+-2--------------------------------------
 graphql 客户端下载地址(测试接口用的): 
 https://electronjs.org/apps/graphiql
 
