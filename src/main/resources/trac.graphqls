@@ -1,0 +1,34 @@
+#查询操作
+extend type Query {
+    countTracs:Long
+    findAllTracs: [Trac]
+    getTracOne(id:Long): Trac
+    getMapQuery: otherDate
+}
+#新增修改操作
+extend type Mutation {
+    CreateTrac(name:String): Trac
+    CreateTracByObj(trac:TracInput): Trac
+    UpdateTrac(id:Long,name:String): Trac
+}
+
+#声明 trac 查询对象
+type Trac{
+    id: Long
+    name: String
+    age: Int
+}
+#声明trac 新增修改对象
+input TracInput{
+    id: Long
+    name: String
+}
+
+#声明getMapQuery接口返回的 map 对象
+type otherDate{
+    id: Int
+    name: String
+    getDesc: String
+}
+
+
