@@ -1,5 +1,15 @@
 # graphql-java-spring-boot-example
 
+graphql 客户端下载地址(测试接口用的): 
+https://electronjs.org/apps/graphiql
+
+接口访问测试地址:
+http://localhost:9988/graphiql
+
+graphql 客户端访问地址:
+http:localhost:9988/graphql
+
+
 新增修改操作:
 mutation{
   CreateTrac(name:"呵呵"){
@@ -35,13 +45,14 @@ mutation{
 
 
 
-
 graphql默认数据类型(在graphqls文件定义对象时用到):
 Int：有符号 32 位整数。
 Float：有符号双精度浮点值。
 String：UTF‐8 字符序列。
 Boolean：true 或者 false。
 ID：ID 标量类型表示一个唯一标识符，通常用以重新获取对象或者作为缓存中的键。ID 类型使用和 String 一样的方式序列化；然而将其定义为 ID 意味着并不需要人类可读型。
+
+
 
 
 
