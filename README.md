@@ -1,5 +1,5 @@
 # graphql-java-spring-boot-example
--2--------------------------------------
+
 graphql 客户端下载地址(测试接口用的): 
 https://electronjs.org/apps/graphiql
 
@@ -8,6 +8,17 @@ http://localhost:9988/graphiql
 
 graphql 客户端访问地址:
 http:localhost:9988/graphql
+
+
+建库:
+CREATE DATABASE IF NOT EXISTS wxmall default character set utf8 COLLATE utf8_general_ci;
+建表:
+create table test_trac
+(
+  id int default '0' not null auto_increment primary key,
+  name varchar(20) default '' null
+);
+
 
 
 新增修改操作:
