@@ -1,4 +1,4 @@
-# graphql-java-spring-boot-example
+# graphql-experiments
 
 graphql 客户端下载地址(测试接口用的): 
 https://electronjs.org/apps/graphiql
